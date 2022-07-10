@@ -30,7 +30,7 @@ class SunmiPrinter {
   };
 
   ///A list to make human read the paper size
-  static final List<int> _paperize = [80, 58];
+  static final List<int> _paperize = [58, 80];
 
   ///*sunmi_printer_plus
   ///
