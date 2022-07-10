@@ -283,7 +283,7 @@ class SunmiPrinter {
   ///With this method you can draw a line to divide sections.
   static Future<void> line({
     String ch = '-',
-    int len = 31,
+    int len = 45,
   }) async {
     resetFontSize();
     await printText(List.filled(len, ch[0]).join());
